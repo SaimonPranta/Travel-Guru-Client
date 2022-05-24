@@ -1,0 +1,72 @@
+.editRoom{
+    border: 1px solid #ABABAB;
+    padding: 50px;
+    border-radius: 10px;
+    width: 570px;
+    margin: auto
+}
+.editRoom form input, .editRoom form label{
+    margin-top:15px;
+}
+.editRoom form input{
+    border: 1px solid #698A79;
+    color: #698A79;;
+}
+.editRoom form input:focus{
+    border: 1px solid blueviolet;
+    outline: none;
+    color: blueviolet;
+}
+.editRoom form input[type=radio]{
+    margin-left:10px;
+}
+.editRoom form input[type=file]{
+    border: none;
+    color: rgb(160, 160, 3);
+}
+.editRoom form input[type=submit]{
+    color: #000;
+    font-weight: 500;
+    background-color: #F9A51A;
+    border: none;
+    padding: 5px;
+    margin-top: 20px;
+}
+.editRoom div{
+    width: 100%;
+}
+.editRoom div img{
+    height: 150px;
+    width: 80%;
+    border-radius: 5px;
+    
+}
+/* =========================== */
+
+@media only screen and (min-width:200px) and (max-width:768px) {
+    .editRoom{
+        width: 85%;
+    }
+    .editRoom div img{
+        height: 130px;
+        width: 85%;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:576px) {
+    .editRoom{
+        padding: 5px;
+        
+    }
+    .editRoom div img{
+        height: 100px;
+        width: 85%;
+    }
+    .editRoom form label{
+        font-size: .82rem;
+    }
+    .editRoom form input[type=submit]{
+        width: 70%;
+        font-size: .92rem;
+        margin: 2px auto 20px auto ;
+    }
+}

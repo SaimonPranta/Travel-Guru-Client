@@ -1,0 +1,41 @@
+.rooms div img{
+    width: 100%;
+    height: 180px;
+    
+}
+.rooms-text h3{
+    font-size: 20px;
+}
+.rooms-text P{
+    font-size: 18px;
+    padding-left: 0px;
+    color: #6A6A6A;
+}
+.star p{
+    color: #000;
+}
+.btn-control{
+    border: none;
+    background-color: #F9A51A;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+
+/* ============================================ */
+
+@media only screen and (min-width:200px) and (max-width:991px) {
+    .rooms-text h3{
+    font-size: 18px;
+    }
+    .rooms-text P{
+        font-size: 15px !important;
+    }
+   
+}
+@media only screen and (min-width:200px) and (max-width:576px) {
+    .rooms div img{
+        width: 100%;
+        height: 100px;
+        
+    }
+}

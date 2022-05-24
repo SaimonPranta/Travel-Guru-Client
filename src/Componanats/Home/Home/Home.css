@@ -1,0 +1,10 @@
+html h6{
+    font-size: 1rem;
+    font-weight: 800;
+}
+p, span, strong{
+    font-family: 'PT Serif', serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Vollkorn', serif;
+}

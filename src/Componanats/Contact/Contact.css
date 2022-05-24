@@ -1,0 +1,97 @@
+.contact{
+    background:rgb(0,0,0,.8) url("../../images/Rectangle\ 1.png");
+    background-blend-mode:darken;
+    background-repeat: no-repeat;
+    width:100%;
+    min-height: 100vh;
+    height: 100%;
+    background-size: 100%;
+    background-size: 100% 100%;
+}
+.contact h3{
+    font-size: 3.2rem;
+}
+.mapImage{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    opacity: .8;
+}
+.footer{
+    background-color: rgba(187, 43, 43, 0.178);
+}
+.footer h6{
+    font-size: 1.2rem;
+}
+.social-section ul{
+margin: 0;
+padding: 0;
+}
+.social-section ul li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+.social-section ul li a svg{
+    color: #fff;
+}
+.social-section ul li:hover a svg{
+    color: steelblue;
+}
+
+/* ======================================= */
+@media only screen and (min-width:200px) and (max-width:1030px) {
+    .contact h3{
+        font-size: 3rem;
+    }
+    .mapImage{
+        height: 250px;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:768px) {
+    .contact h3{
+        font-size: 2.9rem;
+    }
+    .mapImage{
+        height: 230px;
+    }
+    .contact strong{
+        font-size: .88rem;
+    }
+}
+@media only screen and (min-width:200px) and (max-width:576px) {
+    .contact h3{
+        font-size: 2.5rem;
+    }
+    .contact p{
+        font-size: .97rem;
+    }
+    .mapImage{
+        height: 200px;
+    }
+    .contact strong{
+        font-size: .80rem;
+    }
+    
+}
+@media only screen and (min-width:200px) and (max-width:450px) {
+    .contact h3{
+        font-size: 2.1rem;
+    }
+    .contact p{
+        font-size: .8rem;
+    }
+    .mapImage{
+        height: 180px;
+    }
+    .contact strong{
+        font-size: .77rem;
+    }
+    .contact h6{
+        font-size: 1.2rem;
+    }
+}

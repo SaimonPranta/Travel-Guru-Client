@@ -1,0 +1,47 @@
+.destination{
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+.sub-destination{
+    border-top: 1px solid #ABABAB; 
+}
+
+.map-section{
+    border-radius: 0px;
+    overflow: hidden;
+}
+.rooms-section p{
+    font-size: 1.1rem;
+    font-weight: 460;
+    padding: 0px ;
+    margin: 0px ;
+}
+.rooms-section h5{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.nav{
+    background-color: rgb(252, 235, 235);
+}
+
+
+@media only screen and (min-width:200px) and (max-width:576px) {
+    .rooms-section p{
+        font-size: .9rem;
+        
+    }
+    .rooms-section h5{
+        font-size: 1.4rem;
+    }
+    
+}
+@media only screen and (min-width:200px) and (max-width:450px) {
+    .rooms-section p{
+        font-size: .8rem;
+        
+    }
+    .rooms-section h5{
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,45 @@
+.add-user-conter form{
+    border: 1px solid #ABABAB;
+    padding: 50px;
+    border-radius: 10px;
+    width: 570px;
+    margin: auto;
+}
+.add-user-conter input, .add-user-conter label{
+    margin-top:15px;
+}
+.add-user-conter input{
+    border: 1px solid #698A79;
+    color: #698A79;;
+}
+.add-user-conter input:focus{
+    border: 1px solid blueviolet;
+    outline: none;
+    color: blueviolet;
+}
+.add-user-conter input[type=radio]{
+    margin-left:10px;
+}
+.add-user-conter input[type=file]{
+    border: none;
+    color: rgb(160, 160, 3);
+}
+.add-user-conter input[type=submit]{
+    color: #000;
+    font-weight: 500;
+    background-color: #F9A51A;
+    border: none;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+@media only screen and (min-width:200px) and (max-width:576px) {
+    .add-user-conter form{
+        padding: 10px;
+        width: 90%;
+    }
+    .add-user-conter form label{
+        font-size: .9rem;
+    }
+
+}
