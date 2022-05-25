@@ -22,7 +22,6 @@ const EditRooms = () => {
         filter: ""
     }
 
-    console.log(roomsInfo)
     const handleDelate = (id) => {
         const rooms = roomsInfo.filter(room => room._id !== id)
 
@@ -50,7 +49,7 @@ const EditRooms = () => {
                 </div>
                 <div className='col-12 row'>
                     {
-                        roomsInfo.length > 0 && roomsInfo.map(room => <section className='rooms row'>
+                        roomsInfo.length > 0 && roomsInfo.map(room => <section className='rooms row' key={room._id}>
                             <div className='col-sm-4  my-3'>
                                 <img src={`data:${room.image.contentType};base64,${room.image.data}`} />
                             </div>

@@ -15,7 +15,7 @@ function Destination() {
     lng: 91.987030
   });
   const getRoomsInfoApi = 'https://sheltered-wildwood-92466.herokuapp.com/getRooms';
-  
+
   useEffect(() => {
     fetch(getRoomsInfoApi, {
       headers: { location: loadRoomsCondition.locationName }

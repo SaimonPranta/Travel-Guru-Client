@@ -21,8 +21,6 @@ function MyComponent({location}) {
     setMapInfo(currentInfo)
   }, [location])
 
-  console.log(location)
-  
   const center = {
     lat: mapInfo.lat,
     lng: mapInfo.lng

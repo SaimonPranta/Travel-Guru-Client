@@ -49,9 +49,6 @@ const SliderSection = () => {
         }
         SetSlider(currentCount)
     }
-    // setInterval(() => {
-    //     autoSlider()
-    // }, 1000);
 
     const coxsBookingHandle = () => {
         const currntUser = { ...user }
@@ -86,21 +83,21 @@ const SliderSection = () => {
                         {
                             slider.count === 0 && <div>
                                 <h2 className='ms-1'>COX'S BAZAR</h2>
-                                <p>Cox's Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it ...</p>
+                                <p>Cox's Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural ...</p>
                                 <button onClick={coxsBookingHandle}><Link to="/rooms">Booking {bookingIcon}</Link></button>
                             </div>
                         }
                         {
                             slider.count === 1 && <div>
                                 <h2 className='ms-1'>SUNDORBANS</h2>
-                                <p>Cox's Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it ...</p>
+                                <p>Sundarbans is the largest mangrove forest in the world, spanning across the borders of Bangladesh and India. It is also a UNESCO World Heritage site recognized for its ...</p>
                                 <button onClick={sundorbansBookingHandle}><Link to="/rooms">Booking {bookingIcon}</Link></button>
                             </div>
                         }
                         {
                             slider.count === 2 && <div>
                                 <h2 className='ms-1'>SREEMANGAL</h2>
-                                <p>Cox's Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it ...</p>
+                                <p>Srimangal is called “The land of two leaves and a bud” and also known as the camellia, green carpet or Tea Mountain. Delighted with the revolving hills, the endless tea  ...</p>
                                 <button onClick={sreemangalBookingHandle}><Link to="/rooms">Booking {bookingIcon}</Link></button>
                             </div>
                         }

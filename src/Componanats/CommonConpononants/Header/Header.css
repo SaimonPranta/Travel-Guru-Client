@@ -3,8 +3,11 @@
     line-height: 19.5px;
     margin: auto 18px;
 }
+.hearder-main{
+    width: 1250px;
+    margin: auto;
+}
 .active a{
-    /* background-color: rgba(74, 102, 74, 0.644); */
     background-color: rgba(144, 156, 144, 0.349);
     
     border-radius: 6px;
@@ -85,6 +88,12 @@
 }
 
 /* ======================================= */
+@media only screen and (min-width:200px) and (max-width:1270px) {
+    .hearder-main{
+        width: 100%;
+    }
+}
+
   @media only screen and (min-width:200px) and (max-width:1030px) {
     .searchItems{
         width: 197px;
@@ -110,7 +119,7 @@
         left: 0px;
     }
     .search input[type = search]{
-        width: 200px;
+        width: 180px;
         font-size: .7rem;
         padding:  2px 5px 3px 35px;
     }
@@ -126,28 +135,67 @@
         height: 20px;
         width: 15px;
     }
-    /* .search svg{
-        left: 15px;
-        height: 20px;
-        width: 15px;
-    } */
 }
-@media only screen and (min-width:200px) and (max-width:450px) {
+@media only screen and (min-width:200px) and (max-width:576px) {
     .nav-item{
         margin: 1px;
     }
     .searchItems{
-        width: 138px;
+        font-size:.8rem;
+        width: 140px;
         top: 32px;
+        left: 1px
+    }
+    .searchItems ul li a{
+        font-size:.88rem;
     }
     .search input[type = search]{
-        width: 140px;
+        width: 142px;
         height: 31px;
         font-size: .7rem;
         padding:  2px 5px 3px 35px;
     }
     .header img{
+        width: 90px;
+        height: 46px;
+    }
+    .navbar-light .navbar-toggler-icon{
+        height: 25px;
+        width: 25px
+    };
+}
+
+@media only screen and (min-width:200px) and (max-width:450px) {
+    .navbar-light .navbar-toggler{
+        width: 45px;
+
+    }
+    .navbar-light .navbar-toggler-icon{
+        width: 25px;
+        height: 25px;
+        background: none;
+    };
+    .nav-item{
+        margin: 1px;
+    }
+    .searchItems{
+        font-size:.8rem;
+        width: 140px;
+        top: 32px;
+        left: -22px
+    }
+    .searchItems ul li a{
+        font-size:.88rem;
+    }
+    .search input[type = search]{
         width: 100px;
+        height: 31px;
+        font-size: .7rem;
+        padding:  2px 5px 3px 35px;
+        float: left;
+    }
+    .header img{
+        width: 90px;
         height: 46px;
     }
     .navbar-light .navbar-toggler-icon{

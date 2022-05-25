@@ -141,7 +141,7 @@ const Header = ({ styles }) => {
             </style>
 
             <div className='header py-3 ' >
-                <div className='container' >
+                <div className='hearder-main' >
                     <nav className="navbar navbar-expand-lg navbar-light">
                         <div className="container-fluid">
                             <img src={logo} alt="Logo" style={{ filter: styles.filter, cursor: "pointer" }} onClick={() => navigate("/")} />
